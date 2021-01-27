@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Dev Fabio Pavani</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           html, body {
+                background: black; 
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                overflow-x: hidden; 
+                }
+            
+            h1 {
+                color: white;
+                font-size: 60px;
+                margin: 0;
+
+            }
+
+            h2 {
+                color: white;
+                font-size: 30px;
+                margin: 0;
+            }
+            h4 {
+                font-size: 30px; 
+                color: #4a566e;
+            }
+            div {
+                width:
+                height: auto;
+                text-align: center;
+            }
+
+            #apresentacao {
+                background: url(imagens/background.gif);
+                background-size: cover;
+                width: 100%;               
+                height: auto;
+                padding-top: 200px;
+                padding-bottom: 200px;
+            }
+
+            #habilidades {
+                display: flex;
+                color: white;
+                font-size: 30px;
+            }
+
+            #frontend {
+                background: #151515;
+                width: 50%;
+                padding-bottom: 50px;
+                }
+
+            #backend {
+                background: #111111;
+                width: 50%;
+                padding-bottom: 50px;
+            }
+
+            #contato {
+                background: white;
+                height: 500px;
+                padding-top: 50px;
+                padding-bottom: 200px;
+
+            }
+            a {
+                background: green;
+                color: white;
+                text-decoration: none;
+                padding: 20px;
+                border-radius: 10px;
+                margin: 100px;
+            }
+            @media (max-width: 600px) {
+                
+                #habilidades {
+                    flex-direction: column;
+                }
+            
+                #frontend {
+                    width: 100%;
+                }
+            
+                #backend {
+                    width: 100%;
+                }
+            
+            }
+        </style>
+    </head>
+    <body>
+        <div id="apresentacao">
+            <h1>Fabio Pavani</h1>
+            <h2>Desenvolvedor Web Full-Stack</h2>
+            <img src="imagens/foto.png">
+        </div>
+
+        <div id="habilidades">
+            <div id="frontend">
+                <h3>front-end</h3>
+                <img src="imagens/css.png">
+                <img src="imagens/js.png">
+                <img src="imagens/react.png">
+            </div>	
+            <div id="backend">
+                <h3>back-end</h3>
+                <img src="imagens/node.png">
+                <img src="imagens/sql.png">
+                <img src="imagens/rest.png">
+            </div>        
+        </div>
+    
+        <div id="contato">
+            <h4>
+            Precisa de um site ou app?<br>
+            Me manda uma mensagem! :)
+            </h4>
+            <a href="https://whatsapp.com/">Mandar um WhatsApp</a>
+        </div>
+        
+        <img src="">
+    </body>
+
+</html>
